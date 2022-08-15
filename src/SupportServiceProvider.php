@@ -6,9 +6,9 @@ use Tipoff\Support\View\Components\Money;
 
 class SupportServiceProvider extends TipoffServiceProvider
 {
-    public function configureTipoffPackage(TipoffPackage $tipoffpackage): void
+    public function configureTipoffPackage(TipoffPackage $tipoffPackage): void
     {
-        $tipoffpackage
+        $tipoffPackage
             ->hasBladeComponents([
                 'money' => Money::class,
             ])
