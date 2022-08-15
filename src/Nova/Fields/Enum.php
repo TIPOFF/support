@@ -26,8 +26,9 @@ class Enum extends Select
             }
         );
     }
-
-    public function attach(string $class): self
+    
+    // public function attach(string $class): self
+    public function attach($class): self
     {
         Assert::that($class)->subclassOf(BaseEnum::class);
         $options = call_user_func([$class, 'optionsArray']);
