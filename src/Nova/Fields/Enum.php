@@ -28,7 +28,7 @@ class Enum extends Select
     }
     
     /**
-     * @param-out string $class
+     * @var string $class
      */
     public function attach(string $class): self
     {
