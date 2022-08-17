@@ -27,7 +27,7 @@ class Enum extends Select
         );
     }
     
-    /** @return Tipoff\Support\Nova\Fields\Enum */
+    /** @return 'Tipoff\Support\Nova\Fields\Enum' */
     public function attach(string $class): self
     {
         Assert::that($class)->subclassOf(BaseEnum::class);
