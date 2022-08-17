@@ -28,7 +28,7 @@ class Enum extends Select
     }
     
     /**
-     * @param string
+     * @psalm-suppress PossiblyNullOperand
      */
     public function attach(string $class): self
     {
