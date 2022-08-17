@@ -27,9 +27,7 @@ class Enum extends Select
         );
     }
     
-    /**
-     * @psalm-suppress PossiblyNullOperand
-     */
+    /** @return string */
     public function attach(string $class): self
     {
         Assert::that($class)->subclassOf(BaseEnum::class);
