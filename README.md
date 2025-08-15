@@ -4,8 +4,11 @@
 ![Tests](https://github.com/tipoff/support/workflows/Tests/badge.svg)
 [![Total Downloads](https://img.shields.io/packagist/dt/tipoff/support.svg?style=flat-square)](https://packagist.org/packages/tipoff/support)
 
+## Deprecated / Archived
 
-This is where your description should go.
+This is a pain to keep updated so I am removing it as a dependency from other packages & so they can stand better in isolation & be updated faster to new versions of Laravel.
+
+This is where your description should go of what all needs to be removed.
 
 ## Installation
 
